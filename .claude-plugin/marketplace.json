@@ -1,0 +1,20 @@
+{
+  "name": "ripplo",
+  "owner": { "name": "Ripplo" },
+  "metadata": {
+    "description": "Ripplo reviews pull requests by driving your app end to end. Connect an app, then fix what a review found."
+  },
+  "plugins": [
+    {
+      "name": "ripplo",
+      "source": "./",
+      "description": "Ripplo reviews pull requests by driving your app end to end in a real browser and reporting what broke, with the evidence. This plugin connects an app to Ripplo and lets Claude Code fix what a review found.",
+      "category": "testing",
+      "keywords": ["e2e", "testing", "code-review", "qa"],
+      "homepage": "https://ripplo.ai",
+      "repository": "https://github.com/ripplo/claude-plugin",
+      "license": "SEE LICENSE IN LICENSE",
+      "author": { "name": "Ripplo", "url": "https://ripplo.ai" }
+    }
+  ]
+}
